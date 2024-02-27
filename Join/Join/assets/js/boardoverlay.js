@@ -181,8 +181,10 @@ function showOverlay(index) {
   displaySubtasks(index); // index = e.g.: 1698364123489791324514
 }
 
+/**
+ * Brings the user to the top of the page
+ */
 function scrollToTop() {
-  console.log('Hello')
   document.getElementById('header').scrollIntoView({ behavior: 'smooth' });
 }
 

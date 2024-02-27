@@ -39,6 +39,10 @@ img:hover {
     width: calc(100% - 17px);
 }
 
+.edit-date {
+    cursor: auto !important;
+}
+
 .radius-and-border {
     border-radius: 6px;
     border: 1px solid #D1D1D1;

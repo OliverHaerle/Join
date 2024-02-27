@@ -35,7 +35,7 @@ async function editTask(id) {
 
     <div class="enter-date gap-8"v>
       <h3> Due date </h3>
-      <input class="radius-and-border edit-input" id="edit-dueDate${id}" type="date" value="${formatDateToDDMMYYYY(todos[id].dueDate)}"></input>
+      <input class="radius-and-border edit-input edit-date" id="edit-dueDate${id}" type="date" value="${formatDateToDDMMYYYY(todos[id].dueDate)}"></input>
     </div>
 
     <div class="priority-edit gap-8">
