@@ -180,6 +180,13 @@ function showOverlay(index) {
   displayAssignedNameOverlay(index);
   displaySubtasks(index); // index = e.g.: 1698364123489791324514
 }
+
+function scrollToTop() {
+  console.log('Hello')
+  document.getElementById('header').scrollIntoView({ behavior: 'smooth' });
+}
+
+
 /**
  * Displays subtasks on the overlay.
  *
