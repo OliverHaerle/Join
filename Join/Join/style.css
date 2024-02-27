@@ -119,8 +119,8 @@ body {
   color: #29ABE2;
   border: solid 3px black;
   border-radius: 100%;
-  height: 56px;
-  width: 56px;
+  height: 50px;
+  width: 50px;
 }
 
 .first-letter:hover {

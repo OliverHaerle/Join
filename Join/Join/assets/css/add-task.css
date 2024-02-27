@@ -283,17 +283,17 @@ ul {
   height: 40px;
   font-family: "Inter";
   font-size: 20px;
-  display: flex;
-  flex-direction: row;
   padding: 0 16px 0 16px;
   color: #D1D1D1;
+  cursor: auto;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   color: rgba(0, 0, 0, 0);
   opacity: 1;
-  display: block;
   background: url(../../assets/img/date.png) no-repeat;
+  background-position: 0;
+  cursor: pointer;
 }
 
 .priority {
